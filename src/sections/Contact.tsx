@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa"
 function Contact() {
     return (
         <>
-            <div id="contact" className="w-full h-screen flex justify-center items-center bg-black">
+            <div id="contact" className="w-full min-h-screen flex justify-center items-center bg-black">
                 <motion.div
                     initial={{ opacity: 0 , y: 50 }}
                     animate={{ opacity: 1, y: 0 }}

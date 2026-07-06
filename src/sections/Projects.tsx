@@ -7,7 +7,7 @@ function ProjectsSection () {
 
     return (
         <>
-            <div id="projects" className="w-full h-screen flex justify-center items-center bg-black">
+            <div id="projects" className="w-full min-h-screen flex justify-center items-center bg-black">
                 <motion.div
                     initial={{ opacity: 0 , y: 50 }}
                     animate={{ opacity: 1, y: 0 }}

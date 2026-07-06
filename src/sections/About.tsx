@@ -5,7 +5,7 @@ function AboutSection () {
 
     return (
         <>
-            <div id="about" className="w-full h-screen flex justify-center items-center bg-black">
+            <div id="about" className="w-full min-h-screen flex justify-center items-center bg-black">
                 <motion.div
                     initial={{ opacity: 0 , y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
