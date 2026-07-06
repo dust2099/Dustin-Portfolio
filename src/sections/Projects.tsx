@@ -1,5 +1,5 @@
 import {motion} from "motion/react"
-import project1Image from "../assets/laptop.png"
+import project1Image from "../assets/project1.png"
 import project2Image from "../assets/laptop.png"
 import { Folder } from "lucide-react"
 
@@ -20,39 +20,44 @@ function ProjectsSection () {
                     </div>
                     
                     <div className="flex flex-col gap-6 md:gap-10 items-center">
-                        <motion.div
-                            initial={{ opacity: 0 , y: 50 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1.5 }}
-                            className="border border-gray-400 rounded-lg p-6 md:p-10 mx-auto max-w-4xl w-full text-white"
-                        >
-                            <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-center">
-                                <div>
-                                    <img src={project1Image} alt="Project 1" className="w-60 h-auto rounded-lg" />
+                        <a href="https://project1-hazel-xi.vercel.app/" target="_blank" rel="noreferrer" className="block w-full max-w-4xl mx-auto">
+                            <motion.div
+                                initial={{ opacity: 0 , y: 50 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 1.5 }}
+                                whileHover={{ scale: 1.02, y: -4 }}
+                                className="border border-gray-400 rounded-lg p-6 md:p-10 text-white cursor-pointer"
+                            >
+                                <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-start md:items-center">
+                                    <div className="w-full md:w-[280px] flex-shrink-0">
+                                        <img src={project1Image} alt="Project 1" className="w-full h-48 md:h-60 object-cover rounded-lg" />
+                                    </div>
+                                    <div className="flex-1 min-w-0">
+                                        <h1 className="text-xl font-bold mb-4">Portfolio Website</h1>
+                                        <p className="text-gray-300">I was the sole developer responsible for designing and implementing this portfolio website from scratch. The site features a modern, responsive design and showcases my projects and skills.</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h1 className="text-xl font-bold mb-4">Project 1</h1>
-                                    <p className="text-gray-300">Description of project 1.</p>
+                            </motion.div>
+                        </a>
+                        <a href="https://github.com/dbedanadiza" target="_blank" rel="noreferrer" className="block w-full max-w-4xl mx-auto">
+                            <motion.div
+                                initial={{ opacity: 0 , y: 50 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 1.5 }}
+                                whileHover={{ scale: 1.02, y: -4 }}
+                                className="border border-gray-400 rounded-lg p-6 md:p-10 text-white cursor-pointer"
+                            >
+                                <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-start md:items-center">
+                                    <div className="w-full md:w-[280px] flex-shrink-0">
+                                        <img src={project2Image} alt="Project 2" className="w-full h-48 md:h-60 object-cover rounded-lg" />
+                                    </div>
+                                    <div className="flex-1 min-w-0">
+                                        <h1 className="text-xl font-bold mb-4">Project 2</h1>
+                                        <p className="text-gray-300">Description of project 2.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            
-                        </motion.div>
-                        <motion.div
-                            initial={{ opacity: 0 , y: 50 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1.5 }}
-                            className="border border-gray-400 rounded-lg p-6 md:p-10 mx-auto max-w-4xl w-full text-white"
-                        >
-                            <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-center">
-                                <div>
-                                    <img src={project2Image} alt="Project 2" className="w-60 h-auto rounded-lg" />
-                                </div>
-                                <div>
-                                    <h1 className="text-xl font-bold mb-4">Project 2</h1>
-                                    <p className="text-gray-300">Description of project 2.</p>
-                                </div>
-                            </div>
-                        </motion.div>
+                            </motion.div>
+                        </a>
                     </div>
                 </motion.div>
             </div>
