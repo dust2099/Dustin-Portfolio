@@ -27,7 +27,7 @@ function Contact() {
                                 <p> I'm always open to new opportunities, collaborations, or just a friendly chat about tech. Feel free to reach out through any of these channels.!</p>
                             </div>
                             <div className="mt-6 grid gap-4 md:grid-cols-3">
-                                <a href="mailto:dbedanadiza@gmail.com" className="block h-full">
+                                <a href="mailto:dustinbedanadiza@gmail.com" className="block h-full">
                                     <motion.div
                                         whileHover={{ scale: 1.04, y: -4 }}
                                         transition={{ duration: 0.2 }}
@@ -35,7 +35,7 @@ function Contact() {
                                     >
                                         <Mail className="text-cyan-300 size-8 mx-auto" />
                                         <p className="text-sm font-semibold uppercase tracking-wide text-cyan-200 mx-auto">Email</p>
-                                        <p className="text-gray-400 mx-auto text-center break-all">dbedanadiza@gmail.com</p>
+                                        <p className="text-gray-400 mx-auto text-center break-all">dustinbedanadiza<br/>@gmail.com</p>
                                     </motion.div>
                                 </a>
                                 <a href="https://github.com/dust2099" target="_blank" rel="noreferrer" className="block h-full">
