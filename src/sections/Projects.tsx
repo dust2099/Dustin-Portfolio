@@ -12,7 +12,7 @@ const projects = [
         description: "I was the sole developer responsible for designing and implementing this portfolio website from scratch. The site features a modern, responsive design and showcases my projects and skills.",
     },
     {
-        url: "https://github.com/dbedanadiza",
+        url: "https://subtrack-alpha-sepia.vercel.app/auth",
         image: project2Image,
         imageAlt: "Project 2",
         title: "Subtrack",
